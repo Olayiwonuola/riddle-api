@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #fff;
+  background: linear-gradient(to bottom right, red, green);
+  min-height: 100vh;
+  margin: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.btn-reveal {
+  border: none;
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  border-radius: 0.7rem;
+  margin-top: 2rem;
+  color: white;
+  background-color: rgb(105, 6, 6);
+  cursor: pointer;
+  display: inline-block;
+}
+
+h1 {
+  border: 3px dashed yellow;
+  padding: 20px;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+}
+
+.answer {
+  text-align: center;
+}
+
+p {
+  font-size: 300%;
+  color: rgb(13, 255, 0);
+  margin-bottom: 4rem;
+}
+
+.hide-it {
+  opacity: 0;
+  display: none;
+  transition: opacity 0.5s;
+}
